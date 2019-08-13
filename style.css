@@ -1,0 +1,62 @@
+#head_page {
+    background: linear-gradient(to top, #685d7a, #543f7a, #694aa1); /* цвет заднего фона */
+}
+
+#head_navigation
+{
+    background: linear-gradient(to top, #414141, #292929, #000000); /* цвет заднего фона */
+}
+
+#body_page
+{
+    background: #ffffff;
+}
+
+.head_text
+{
+    text-align: left;
+    color: rgb(113, 165, 127);
+    margin-left: 1%;
+    text-shadow: 1px 0.5px 1px #000000;
+}
+
+.navigation_text
+{
+    text-align: center;
+    padding: 15px;
+    font: bold 16px Times;
+    border-radius: 5%;
+    margin-left: 1%;
+}
+
+.border_radius
+{
+    border-radius: 8px;
+    margin-left: 1%; /* положение элемента на странице по левому краю */
+    margin-right: 1%; /* положение элемента на странице по правому краю */
+    width: auto;
+    height: auto;
+    border: solid 0.5px black;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    background: linear-gradient(to top, #685d7a, #543f7a, #694aa1);
+    color: #000000;
+}
+
+a:visited
+{
+    color: #e4e2e2;
+}
+
+a:active
+{
+    background: #a59eb1;
+    color: red;
+}
